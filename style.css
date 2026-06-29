@@ -152,7 +152,7 @@ h5{
     border: 1px solid grey;
 }
 
-.contact a{
+#email{
     text-decoration: none;
     color: rgb(60, 50, 204);
     font-size: 15px;
