@@ -147,19 +147,35 @@ h5{
 
 .contact {
     background-color: lightgrey;
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 2rem;
     border: 1px solid grey;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#email{
+#email a{
     text-decoration: none;
-    color: rgb(60, 50, 204);
-    font-size: 15px;
+    font-size: 1.25rem;
 }
 
-.contact a{
+.socialMedia{
     font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.socialMedia a{
+    
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+  
+}
+
+.contact:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
 }
 
 footer{
